@@ -48,8 +48,8 @@ main{
 .google-search button{
     border-radius: 11px;
     padding: 5px;
-    height: 90%;
-    width: 8.5rem;
+    height: 2.6rem;
+    width: 9rem;
     font-weight: 600;
 }
 
@@ -209,4 +209,8 @@ header-links{
 
 .advanced-submit{
     padding: 15px 0 0 318px;
+}
+
+.container-search{
+    padding-top: 1000rem;
 }

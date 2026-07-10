@@ -1,0 +1,212 @@
+html, body{
+    min-height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    background-color:#202124;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+.header-links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.header-divider {
+    background-color: white;
+    border: none;
+    height: 1.5px;
+    margin: 0;
+}
+
+.google-search{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.google-search input{
+    border-radius: 24px;
+    height: 45px;
+    max-width: 680px;
+    width: 90%;
+    padding: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.google-search button{
+    border-radius: 11px;
+    padding: 5px;
+    height: 90%;
+    width: 8.5rem;
+    font-weight: 600;
+}
+
+.google-search form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; 
+    width: 100%;
+}
+
+.google-text{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    padding-top: 1.4rem;
+}
+
+.image-text{
+    color: #4285F4;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.google-text h1{
+    color: white;
+    font-size: 80px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-left, .footer-right{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-links h6{
+    color: white;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.footer-divider{
+    background-color: white;
+    height: 2px;
+    border: none;
+}
+
+.google-header h6{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 25px 5px 25px;
+}
+
+.google-header{
+    padding: 0;
+    flex: 1;
+}
+
+header .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+header-links{
+    flex: 2;
+}
+
+.search-inputA label{
+    color: white;
+    width: 140px;
+    overflow-wrap: break-word;
+    font-size: 14px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.advanced-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.advanced-text h4{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 0 35px 0;
+}
+
+.advanced-text h5{
+    color: white;
+    font-size: 23px;
+    font-weight: 220;
+}
+
+.search-inputA{
+    padding: 20px 0 0 90px;
+}
+
+
+
+.advanced-container input{
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 20rem;
+    height: 3rem;
+    margin: 0;
+    background-color: #303134;
+    color: white;
+    padding: 10px;
+}
+
+.advanced-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input-row select{
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 20rem;
+    height: 3rem;
+    margin: 0;
+    padding: 10px;
+    background-color: #303134;
+    color: white;
+}
+
+.input-row button{
+    background-color: #D2E3FC;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 0;
+    height: 2.7rem;
+    padding: 7px;
+    width: 8.2rem;
+    font-weight: 170;
+    font-size: 14px;
+}
+
+.advanced-submit{
+    padding: 15px 0 0 318px;
+}
